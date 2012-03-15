@@ -1,0 +1,15 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    em-mqtt (0.0.1)
+      eventmachine
+      mqtt (>= 0.0.8)
+    eventmachine (1.0.0.beta.4)
+    mqtt (0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-mqtt
+  eventmachine (>= 1.0.0.beta)

@@ -1,11 +1,16 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'eventmachine'
-require 'em-mqtt'
+require "bundler"
+
+Bundler.require(:default)
 
 STOMP_HOST = 'vis.musicradio.com'
 MQTT_HOST = 'test.mosquitto.org'
+
+
+# Make STDOUT unbuffered
+STDOUT.sync = true
 
 module StompClient
   include EM::Protocols::Stomp
