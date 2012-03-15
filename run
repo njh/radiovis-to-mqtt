@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# daemontools run file
+# http://cr.yp.to/daemontools.html
+#
+
+exec setuidgid 'nobody' \
+     ruby radiovis-to-mqtt.rb
