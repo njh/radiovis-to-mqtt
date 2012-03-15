@@ -1,0 +1,16 @@
+---
+radiovis:
+  host: vis.musicradio.com
+  port: 61613
+
+mqtt:
+  host: test.mosquitto.org
+  port: 1883
+
+identifiers:
+  # Capital FM
+  - fm/ce1/c479/09580
+  # Heart
+  - dab/ce1/c185/c460/0
+  # Classic FM
+  - dab/ce1/c181/c2a1/0
