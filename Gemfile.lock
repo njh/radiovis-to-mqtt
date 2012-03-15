@@ -12,4 +12,4 @@ PLATFORMS
 
 DEPENDENCIES
   em-mqtt
-  eventmachine (>= 1.0.0.beta)
+  eventmachine
