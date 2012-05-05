@@ -20,7 +20,7 @@ Comments to [@njh].
 [RadioVis]:           http://en.wikipedia.org/wiki/RadioVIS
 [radiodns-ruby]:      http://github.com/bbcrd/radiodns-ruby
 [EventMachine]:       http://rubyeventmachine.com/
-[Chris Lowis]:        http://twitter.com/chrislo
+[Chris Lowis]:        http://twitter.com/chrislowis
 [MQTT]:               http://mqtt.org/
 [em-mqtt]:            http://github.com/njh/ruby-em-mqtt
 [bundler]:            http://gembundler.com/
