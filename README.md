@@ -3,7 +3,7 @@ radiovis-to-mqtt.rb
 
 This script looks up various [RadioVis] services, listed in the configuration file, using [RadioDNS] and relays the text and images to the [MQTT] server of your choice.
 
-*Gem Dependencies*
+**Gem Dependencies**
 - [radiodns-ruby] by [Chris Lowis]
 - [EventMachine]
 - [em-mqtt]
