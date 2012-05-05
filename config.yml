@@ -1,16 +1,57 @@
 ---
-radiovis:
-  host: vis.musicradio.com
-  port: 61613
-
 mqtt:
   host: test.mosquitto.org
   port: 1883
 
-identifiers:
-  # Capital FM
-  - fm/ce1/c479/09580
-  # Heart
-  - dab/ce1/c185/c460/0
+radiovis:
+  ## BBC National Multiplex ##
+  # BBC Radio 1
+  - dab/ce1/ce15/c221/0
+  # BBC 1xtra
+  - dab/ce1/ce15/c22a/0
+
+  ## Digital One Multiplex ##
+  # Absolute Radio
+  - dab/ce1/c181/c1c0/0
+  # Absolute Radio 80s
+  - dab/ce1/c181/c4c1/0
+  # Absolute Radio 90s
+  - dab/ce1/c181/c4c0/0
+  # Absolute Radio Extra
+  - dab/ce1/c181/c0c1/0
   # Classic FM
   - dab/ce1/c181/c2a1/0
+  # Planet Rock
+  - dab/ce1/c181/c2c0/0
+
+  ## London 1 Multiplex ##
+  # Capital
+  - dab/ce1/c185/c479/0
+  # Chill
+  - dab/ce1/c185/c1c3/0
+  # Choice
+  - dab/ce1/c185/c37b/0
+  # Heart
+  - dab/ce1/c185/c460/0
+  # Heat
+  - dab/ce1/c185/cdce/0
+  # Kiss
+  - dab/ce1/c185/c483/0
+  # LBC 97.3
+  - dab/ce1/c185/c478/0
+  # Magic
+  - dab/ce1/c185/c788/0
+
+  ## London 2 Multiplex ##
+  # Absolute Radio 00s
+  - dab/ce1/c186/cdc1/0
+  # Kerrang!
+  - dab/ce1/c186/c7ce/0
+  # XFM
+  - dab/ce1/c186/c474/0
+
+  ## London 3 Multiplex ##
+  # Absolute Radio Classic Rock
+  - dab/ce1/c199/c7c9/0
+  # Fun Kids
+  - dab/ce1/c199/c5c9/0
