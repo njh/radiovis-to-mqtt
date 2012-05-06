@@ -76,6 +76,12 @@ EM.run do
       topic = msg.header['destination'].sub(%r(^/topic/), 'radiovis/')
       body = msg.body.sub(/^([A-Z]+) /, '')
       mqtt.publish(topic, body, retain=true)
+
+      # If a link is given, post it to a separate topic
+      if msg.header.has_key?('link')
+        link_topic = topic.sub(%r(/\w+$), '/link')
+        mqtt.publish(link_topic, msg.header['link'], retain=true)
+      end
     end
   end
 end
