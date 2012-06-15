@@ -5,4 +5,5 @@
 #
 
 exec setuidgid 'nobody' \
+     softlimit -m 50000000 \
      ruby radiovis-to-mqtt.rb
