@@ -13,7 +13,21 @@ The script is running live on [test.mosquitto.org]. If you download [mosquitto],
 
     mosquitto_sub -h test.mosquitto.org -t 'radiovis/#' -v
 
-Comments to [@njh].
+
+License
+-------
+
+The ruby radiovis-to-mqtt bridge is licensed under the terms of the MIT license.
+See the file LICENSE for details.
+
+
+Contact
+-------
+
+* Author:    Nicholas J Humfrey
+* Email:     njh@aelius.com
+* Twitter:   [@njh](http://twitter.com/njh)
+* Home Page: http://www.aelius.com/njh/
 
 
 [RadioDNS]:           http://radiodns.org/
